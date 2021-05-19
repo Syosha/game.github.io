@@ -1,7 +1,43 @@
 <!doctype html>
 <html>
 <head>
-<script type="text/javascript">
+
+</head>
+<body>
+<div style="background:lightgrey; width:50%; margin:0 auto; border:2px solid darkgray;padding:20px;">
+<form style= text-align:center; padding:20px;">
+<!--<form action="demo_form.asp" method="get" onsubmit="return is_checked()">-->
+ 
+
+
+	WHich Peripherals are you looking for?<br>
+	<input type="radio" name="peripheral" value="Pool" id="Pool"> Pool <br>
+  <input type="radio" name="peripheral" value="Gym" id="Gym" > Gym <br>
+  <input type="radio" name="peripheral" value="Beach" id="Beach"> Beach 
+<br>
+  <br>
+  WHich Company shpuld it be from?<br>
+	<input type="radio" name="company" value="Razer" id="Razer"> Razer <br>
+  <input type="radio" name="company" value="Logitech" id="Logitech" > Logitech <br>
+  <input type="radio" name="company" value="Corsair" id="Corsair"> Corsair<br>
+  
+<br><br>
+
+WHat price range?<br>
+	<input type="radio" name="price" value="Cheap" id="Cheap"> Cheap <br>
+  <input type="radio" name="price" value="Medium" id="Medium" > Medium <br>
+  <input type="radio" name="price" value="Expensive" id="Expensive"> Expensive<br>
+  
+
+
+</form>
+</div>
+<br><br>
+<center><button onclick="myFunction()">Try it</button></center>
+
+				      
+				      
+				      <script type="text/javascript">
 function myFunction() {
 	    var Pool= document.getElementById('Pool').checked;
         var Gym= document.getElementById('Gym').checked;
@@ -305,38 +341,6 @@ function myFunction() {
 }
 </script>
 
-</head>
-<body>
-<div style="background:lightgrey; width:50%; margin:0 auto; border:2px solid darkgray;padding:20px;">
-<form style= text-align:center; padding:20px;">
-<!--<form action="demo_form.asp" method="get" onsubmit="return is_checked()">-->
- 
-
-
-	WHich Peripherals are you looking for?<br>
-	<input type="radio" name="peripheral" value="Pool" id="Pool"> Pool <br>
-  <input type="radio" name="peripheral" value="Gym" id="Gym" > Gym <br>
-  <input type="radio" name="peripheral" value="Beach" id="Beach"> Beach 
-<br>
-  <br>
-  WHich Company shpuld it be from?<br>
-	<input type="radio" name="company" value="Razer" id="Razer"> Razer <br>
-  <input type="radio" name="company" value="Logitech" id="Logitech" > Logitech <br>
-  <input type="radio" name="company" value="Corsair" id="Corsair"> Corsair<br>
-  
-<br><br>
-
-WHat price range?<br>
-	<input type="radio" name="price" value="Cheap" id="Cheap"> Cheap <br>
-  <input type="radio" name="price" value="Medium" id="Medium" > Medium <br>
-  <input type="radio" name="price" value="Expensive" id="Expensive"> Expensive<br>
-  
-
-
-</form>
-</div>
-<br><br>
-<center><button onclick="myFunction()">Try it</button></center>
-
+				
 </body>
 </html>
